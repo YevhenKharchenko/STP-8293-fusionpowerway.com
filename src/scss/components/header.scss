@@ -1,0 +1,66 @@
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  position: sticky;
+  top: 0;
+  background-color: #6d27ef;
+  z-index: 10;
+  // backdrop-filter: blur(10px);
+
+  @include media(desktop) {
+    padding-top: 19.5px;
+    padding-bottom: 18.5px;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  @include media(desktop) {
+    justify-content: center;
+  }
+}
+
+.nav-img {
+  @include media(desktop) {
+    width: 86px;
+    height: 86px;
+  }
+}
+
+.nav-list {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    gap: 88px;
+  }
+}
+
+.nav-list-link {
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: $_white_text_color;
+  transition: color 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: #4dc4e9;
+  }
+}
+
+.nav-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
