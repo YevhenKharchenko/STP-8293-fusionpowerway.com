@@ -7,7 +7,7 @@
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.388" d="M1.882 29.559 28.235 3.206M28.235 29.559 1.882 3.206"/>
     </symbol>
     <symbol id="icon-ellipse" viewBox="0 0 32 32">
-      <path fill="#fff" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" style="fill:var(--color1, #fff)"/>
+      <path fill="currentColor" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" />
     </symbol>
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path fill="#fff" d="M26.667 23.333a2 2 0 0 1 .191 3.989l-.192.009H5.333a2.001 2.001 0 0 1-1.512-3.308 2 2 0 0 1 1.32-.682l.192-.009h21.333zm0-9.333a2 2 0 0 1 0 4H5.334a2 2 0 0 1 0-4h21.333zm0-9.333a2 2 0 0 1 0 4H5.334a2 2 0 0 1 0-4h21.333z" style="fill:var(--color1, #fff)"/>

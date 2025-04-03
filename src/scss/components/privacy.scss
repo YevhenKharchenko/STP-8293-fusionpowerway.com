@@ -1,12 +1,17 @@
-.privacy-section {
+.policy-section {
   background-color: $_white_text_color;
   padding-top: 80px;
   padding-bottom: 60px;
 }
 
-.privacy-container {
-  padding-left: 86px;
-  padding-right: 86px;
+.policy-container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @include media(desktop) {
+    padding-left: 86px;
+    padding-right: 86px;
+  }
 }
 
 .policy-title {
@@ -41,4 +46,8 @@
   content: '';
   display: block;
   height: 1em;
+}
+
+.support-link {
+  word-wrap: break-word;
 }
