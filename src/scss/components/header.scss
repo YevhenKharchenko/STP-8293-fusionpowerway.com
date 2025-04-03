@@ -48,7 +48,6 @@
 .link-home {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 2px;
 }
 
@@ -56,9 +55,21 @@
   background-color: transparent;
   outline: none;
   border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 28px;
+  height: 28px;
+
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.close-btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 28px;
+  height: 28px;
 
   @include media(desktop) {
     display: none;
