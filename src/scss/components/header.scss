@@ -23,13 +23,6 @@
   }
 }
 
-.nav-img {
-  @include media(desktop) {
-    width: 86px;
-    height: 86px;
-  }
-}
-
 .nav-list {
   display: none;
 
@@ -50,6 +43,13 @@
   &:focus {
     color: #4dc4e9;
   }
+}
+
+.link-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
 
 .nav-btn {
