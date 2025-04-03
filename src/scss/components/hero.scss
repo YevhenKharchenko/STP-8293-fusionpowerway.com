@@ -1,0 +1,47 @@
+.hero-section {
+  padding-top: 26px;
+  padding-bottom: 270px;
+  background-color: #fbbb59;
+  background-image: url(../img/hero/hero-ipad-mob.png),
+    url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center bottom, center;
+  background-size: 375px 315px, 375px 800px;
+}
+
+.hero-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero-img {
+  margin-bottom: 12px;
+}
+
+.hero-title {
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $_main_color;
+  margin-bottom: 12px;
+}
+
+.hero-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: $_main_color;
+  margin-bottom: 12px;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-btn-img {
+}

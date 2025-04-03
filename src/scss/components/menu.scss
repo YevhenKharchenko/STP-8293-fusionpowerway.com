@@ -1,10 +1,11 @@
 .context-menu {
   display: none;
   background-color: $_secondary_bg_color;
-  padding: 49px 114px 66px 60px;
+  padding: 49px 60px 66px 60px;
   border-radius: 0 0 26px 26px;
   border-bottom: 2px solid #22003b;
-  width: 375px;
+  max-width: 375px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   position: fixed;
