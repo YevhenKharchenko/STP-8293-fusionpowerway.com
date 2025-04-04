@@ -7,15 +7,45 @@
   background-repeat: no-repeat, no-repeat;
   background-position: center bottom, center;
   background-size: 375px 315px, 375px 800px;
+  // background-size: 375px 315px, cover;
+
+  @include media(desktop) {
+    padding-top: 88px;
+    padding-bottom: 89px;
+    background-image: url(../img/hero/hero-ipad-desk.png),
+      url(../img/hero/hero-bg-desk.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 61px center, center;
+    background-size: 467px 647px, cover;
+  }
 }
 
 .hero-container {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+
+  @include media(desktop) {
+    padding-left: 40px;
+  }
+}
+
+.hero-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 350px;
+
+  @include media(desktop) {
+    max-width: 812px;
+  }
 }
 
 .hero-img {
   margin-bottom: 12px;
+
+  @include media(desktop) {
+    margin-bottom: 28px;
+  }
 }
 
 .hero-title {
@@ -26,6 +56,14 @@
   text-align: center;
   color: $_main_color;
   margin-bottom: 12px;
+  min-width: 350px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 22px;
+    max-width: fit-content;
+  }
 }
 
 .hero-text {
@@ -35,12 +73,22 @@
   text-align: center;
   color: $_main_color;
   margin-bottom: 12px;
+  max-width: 350px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    margin-bottom: 24px;
+    max-width: fit-content;
+  }
 }
 
 .hero-btn {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include media(desktop) {
+  }
 }
 
 .hero-btn-img {
