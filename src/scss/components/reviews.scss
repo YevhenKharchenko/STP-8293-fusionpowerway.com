@@ -1,0 +1,108 @@
+.reviews-section {
+  padding-top: 28px;
+  padding-bottom: 98px;
+  background-image: url(../img/reviews/reviews-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 375px 100%;
+
+  @include media(desktop) {
+    background-image: url(../img/reviews/reviews-bg-desk.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 160px;
+    position: relative;
+  }
+}
+
+.reviews-container {
+}
+
+.reviews-title {
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    margin-bottom: 61px;
+  }
+}
+
+.reviews-swiper-container {
+  position: relative;
+  overflow: hidden;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  // visibility: hidden;
+
+  @include media(desktop) {
+    // overflow: visible;
+    width: 740px;
+  }
+}
+
+.reviews-list {
+}
+
+.reviews-list-item {
+  @include media(desktop) {
+    width: 740px;
+  }
+}
+
+.reviews-list-item-wrapper {
+  // width: 335px;
+  // height: 161px;
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.reviews-avatar {
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews-text-wrapper {
+  padding: 16px 36px;
+  background-color: $_white_text_color;
+  border-radius: 26px;
+  box-shadow: 0 4px 20px 0 #fff;
+  border: 1px solid #fff;
+
+  @include media(desktop) {
+    padding: 23px 36px;
+  }
+}
+
+.reviews-name {
+  font-family: 'Fredoka One', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.reviews-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.reviews-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 22px;
+
+  @include media(desktop) {
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 824px;
+  }
+}
