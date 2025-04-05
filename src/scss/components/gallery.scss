@@ -16,6 +16,7 @@
 
   @include media(desktop) {
     width: 1440px;
+    width: 100vw;
   }
 }
 
@@ -43,8 +44,6 @@
   // visibility: hidden;
 
   @include media(desktop) {
-    width: 320px;
-    height: 460px;
   }
 }
 
@@ -57,8 +56,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 36px;
-  width: 320px;
-  height: 460px;
 
   @include media(desktop) {
   }
@@ -83,5 +80,24 @@
 
   @include media(desktop) {
     margin-top: 56px;
+  }
+}
+
+.gallery-swiper-container {
+  .swiper-slide {
+    transition: transform 0.2s ease;
+  }
+
+  .swiper-slide-active {
+    @include media(desktop) {
+      transform: scale(1.1) !important;
+      z-index: 1;
+    }
+  }
+
+  .swiper-slide-prev,
+  .swiper-slide-next {
+    @include media(desktop) {
+    }
   }
 }
