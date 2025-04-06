@@ -45,7 +45,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 350px;
 
   @include media(desktop) {
     max-width: 812px;
@@ -68,7 +67,6 @@
   text-align: center;
   color: $_main_color;
   margin-bottom: 12px;
-  min-width: 350px;
 
   @include media(desktop) {
     font-size: 32px;
