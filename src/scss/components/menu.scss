@@ -28,11 +28,6 @@
   font-size: 18px;
   color: $_white_text_color;
   transition: color 0.3s ease-in-out;
-
-  &:hover,
-  &:focus {
-    color: #4dc4e9;
-  }
 }
 
 .is-open {

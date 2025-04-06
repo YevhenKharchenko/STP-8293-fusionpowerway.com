@@ -1,6 +1,7 @@
 .about-section {
   padding-top: 28px;
   padding-bottom: 28px;
+  scroll-margin-top: 50px;
 
   @include media(desktop) {
     padding-bottom: 49px;

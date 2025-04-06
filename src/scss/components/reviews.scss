@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 375px 100%;
+  scroll-margin-top: 50px;
 
   @include media(desktop) {
     background-image: url(../img/reviews/reviews-bg-desk.jpg);
@@ -34,7 +35,6 @@
   // visibility: hidden;
 
   @include media(desktop) {
-    // overflow: visible;
     width: 740px;
   }
 }
@@ -49,8 +49,6 @@
 }
 
 .reviews-list-item-wrapper {
-  // width: 335px;
-  // height: 161px;
   &:not(:last-child) {
     margin-bottom: 32px;
   }
