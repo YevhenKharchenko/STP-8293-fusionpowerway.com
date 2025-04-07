@@ -4,8 +4,8 @@
     url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat, no-repeat;
   background-position: center bottom, center;
-  background-size: 375px 315px, 375px 800px;
-  // background-size: 375px 315px, cover;
+  background-size: 375px 315px, cover;
+  padding-top: 60px;
 
   @include media(desktop) {
     background-image: url(../img/hero/hero-bg-desk.jpg);
@@ -22,7 +22,7 @@
   @include media(desktop) {
     padding-top: 88px;
     padding-bottom: 89px;
-    width: 1440px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(../img/hero/hero-ipad-desk.png);

@@ -4,15 +4,13 @@
   background-image: url(../img/reviews/reviews-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 375px 100%;
+  background-size: cover;
   scroll-margin-top: 50px;
   position: relative;
 
   @include media(desktop) {
     background-image: url(../img/reviews/reviews-bg-desk.jpg);
-    background-size: 100% 100%;
     padding-bottom: 160px;
-    position: relative;
   }
 }
 
@@ -33,9 +31,6 @@
   }
 }
 
-.reviews-list {
-}
-
 .reviews-swiper-container {
   position: relative;
   overflow: hidden;
@@ -50,7 +45,7 @@
 
 .reviews-list-item {
   @include media(desktop) {
-    width: 740px;
+    max-width: 740px;
   }
 }
 

@@ -10,14 +10,14 @@
 }
 
 .gallery-background-wrapper {
-  width: 375px;
+  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 
   @include media(desktop) {
-    width: 1440px;
-    width: 100vw;
+    max-width: 1440px;
+    max-width: 100vw;
   }
 }
 
@@ -36,12 +36,11 @@
 
 .gallery-swiper-container {
   position: relative;
-  width: 320px;
+  max-width: 320px;
   height: 460px;
   border-radius: 36px;
   margin-left: auto;
   margin-right: auto;
-  // visibility: hidden;
 
   @include media(desktop) {
   }
@@ -62,7 +61,7 @@
 }
 
 .gallery-img {
-  width: 320px;
+  max-width: 320px;
   height: 460px;
   border-radius: 36px;
   overflow: hidden;

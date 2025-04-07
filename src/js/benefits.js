@@ -10,13 +10,12 @@ const benefitsSwiper = new Swiper('.benefits-swiper-container', {
   grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
+  spaceBetween: 22,
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
   breakpoints: {
-    1440: {
-      spaceBetween: 22,
-    },
+    1440: {},
   },
   on: {
     init: () => {

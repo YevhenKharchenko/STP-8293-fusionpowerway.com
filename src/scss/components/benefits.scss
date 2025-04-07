@@ -25,14 +25,14 @@
 .benefits-swiper-container {
   position: relative;
   overflow: hidden;
-  width: 335px;
+  max-width: 335px;
   border-radius: 22px;
   margin-left: auto;
   margin-right: auto;
   visibility: hidden;
 
   @include media(desktop) {
-    width: 540px;
+    max-width: 540px;
     height: 116px;
     overflow: visible;
   }

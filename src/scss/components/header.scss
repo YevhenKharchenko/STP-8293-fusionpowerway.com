@@ -1,13 +1,11 @@
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
-  // background-color: #6d27ef;
-  background-color: rgba(109, 39, 239, 0.9);
+  background-color: #6d27ef;
   z-index: 10;
-  backdrop-filter: blur(2px);
 
   @include media(desktop) {
     padding-top: 19.5px;
