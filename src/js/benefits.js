@@ -14,9 +14,6 @@ const benefitsSwiper = new Swiper('.benefits-swiper-container', {
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
-  breakpoints: {
-    1440: {},
-  },
   on: {
     init: () => {
       document
