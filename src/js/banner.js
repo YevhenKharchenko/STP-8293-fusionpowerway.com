@@ -5,22 +5,22 @@ document.addEventListener('DOMContentLoaded', function () {
   const cookieCloseBtn = document.getElementById('cookie-close-btn');
 
   if (localStorage.getItem('cookieConsent')) {
-    banner.style.display = 'none';
+    banner.classList.remove('show-cookie-banner');
   } else {
-    banner.style.display = 'flex';
+    banner.classList.add('show-cookie-banner');
   }
 
   acceptBtn.addEventListener('click', () => {
     localStorage.setItem('cookieConsent', 'accepted');
-    banner.style.display = 'none';
+    banner.classList.remove('show-cookie-banner');
   });
 
   declineBtn.addEventListener('click', () => {
     localStorage.setItem('cookieConsent', 'declined');
-    banner.style.display = 'none';
+    banner.classList.remove('show-cookie-banner');
   });
 
   cookieCloseBtn.addEventListener('click', () => {
-    banner.style.display = 'none';
+    banner.classList.remove('show-cookie-banner');
   });
 });
